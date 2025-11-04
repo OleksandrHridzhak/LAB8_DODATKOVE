@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
       this.button2 = new System.Windows.Forms.Button();
       this.button3 = new System.Windows.Forms.Button();
       this.label1 = new System.Windows.Forms.Label();
@@ -61,6 +62,7 @@
       // label1
       // 
       this.label1.AutoEllipsis = true;
+      this.label1.Font = new System.Drawing.Font("Calibri", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.label1.Location = new System.Drawing.Point(12, 326);
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(412, 246);
@@ -71,6 +73,7 @@
       // label2
       // 
       this.label2.AutoEllipsis = true;
+      this.label2.Font = new System.Drawing.Font("Calibri", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.label2.Location = new System.Drawing.Point(437, 336);
       this.label2.Name = "label2";
       this.label2.Size = new System.Drawing.Size(426, 256);
@@ -80,6 +83,7 @@
       // label3
       // 
       this.label3.AutoEllipsis = true;
+      this.label3.Font = new System.Drawing.Font("Calibri", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.label3.Location = new System.Drawing.Point(869, 336);
       this.label3.Name = "label3";
       this.label3.Size = new System.Drawing.Size(470, 273);
@@ -108,6 +112,7 @@
       this.Controls.Add(this.button3);
       this.Controls.Add(this.button2);
       this.Controls.Add(this.button1);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "Form1";
       this.Text = "Ukrainian presidents simulator";
       this.Load += new System.EventHandler(this.Form1_Load);
